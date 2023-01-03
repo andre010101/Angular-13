@@ -10,5 +10,7 @@ size = 40;
 font = 'Arial';
 color = 'red';
 
-classes = ['green-title', 'small-title']
+classes = ['green-title', 'small-title'];
+
+underline = 'underline-title';
 }
