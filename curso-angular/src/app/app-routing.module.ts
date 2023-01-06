@@ -8,7 +8,7 @@ import { ParentDataComponent } from "./components/parent-data/parent-data.compon
 const routes: Routes = [
     {path: '', component: FirstComponentComponent},
     {path: 'list', component: ListRenderComponent},
-    {path: 'data', component: ParentDataComponent},
+   
 ]
 
 @NgModule({
