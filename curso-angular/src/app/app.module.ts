@@ -14,6 +14,7 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     EmitterComponent,
     ListRenderComponent,
     PipesComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule, FormsModule, AppRouterModule, HttpClientModule
